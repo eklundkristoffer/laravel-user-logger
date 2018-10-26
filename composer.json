@@ -1,0 +1,22 @@
+{
+    "name": "eklundkristoffer/laravel-user-logger",
+    "authors": [
+        {
+            "name": "eklundkristoffer",
+            "email": "eklundkristoffer@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Eklundkristoffer\\Logger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eklundkristoffer\\Logger\\LoggerServiceProvider"
+            ]
+        }
+    }
+}
